@@ -1,7 +1,7 @@
 @import "./base.css";
 
 .green {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .center-text {
