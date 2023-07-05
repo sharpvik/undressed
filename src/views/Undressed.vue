@@ -1,7 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <header><h1 class="green">Undressed</h1></header>
 </template>
 
 <style>
