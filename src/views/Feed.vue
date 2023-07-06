@@ -1,5 +1,5 @@
 <template>
-  <header><h1 class="green">Undressed</h1></header>
+  <header><h1 class="accent">Feed</h1></header>
 </template>
 
 <style>

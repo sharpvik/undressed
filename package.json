@@ -9,6 +9,7 @@
     "deploy": "npm install && npm run build"
   },
   "dependencies": {
+    "firebase": "^9.23.0",
     "vue": "^3.3.4",
     "vue-router": "^4.2.2"
   },
