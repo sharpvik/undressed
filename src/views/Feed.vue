@@ -28,7 +28,7 @@ export default {
       </div>
     </main>
     <footer></footer>
-    <RouterLink class="button" to="/speak">Speak your Truth</RouterLink>
+    <RouterLink class="button" to="/speak">Speak Your Truth</RouterLink>
   </div>
 </template>
 
