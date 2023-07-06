@@ -10,7 +10,7 @@
       untold stories, and embrace the <span class="accent">freedom</span> to
       express your innermost passions.
     </p>
-    <div><a class="button" href="/speak">Speak your truth</a></div>
+    <div><a class="button" href="/speak">Speak Your Truth</a></div>
   </section>
   <section class="container">
     <h1><span class="accent">Naked</span> Truth</h1>
@@ -25,7 +25,7 @@
       re-learning to enjoy that forbidden fruit guilt-free. After all, it was
       <span class="accent">He</span> who planted that tree for us to enjoy 😉
     </p>
-    <div><a class="button" href="/">Take a bite</a></div>
+    <div><a class="button" href="/">Take a Bite</a></div>
   </section>
   <br />
 </template>

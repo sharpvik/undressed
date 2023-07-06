@@ -24,7 +24,7 @@ export default {
 
 <template>
   <div class="container">
-    <header><h1 class="accent">Speak</h1></header>
+    <header><h1 class="accent">Speak Your Truth</h1></header>
     <form @submit="publish">
       <textarea
         v-model="story"
@@ -51,11 +51,12 @@ form {
 
 textarea {
   display: block;
-  width: calc(100% - 16px);
+  width: calc(100% - 18px);
   margin: auto;
   resize: vertical;
-  background-color: var(--vt-c-black-mut);
+  background-color: var(--vt-c-black-mute);
   border: solid 1px var(--vt-c-white-mute);
+  border-radius: 8px;
   color: var(--color-heading);
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

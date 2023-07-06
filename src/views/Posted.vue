@@ -4,7 +4,7 @@ import { RouterLink } from "vue-router";
 import { getStory } from "../fire/story";
 
 export default {
-  name: "Read",
+  name: "Posted",
 
   created() {
     getStory(this.$route.params.id).then(
@@ -25,7 +25,7 @@ export default {
 
 <template>
   <div class="container">
-    <header><h1 class="accent">Your new Story</h1></header>
+    <header><h1 class="accent">Your New Story</h1></header>
     <main>
       <div>{{ story.ts.toDate().toLocaleString() }}</div>
       <div>{{ story.text }}</div>

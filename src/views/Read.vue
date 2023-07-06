@@ -25,7 +25,7 @@ export default {
 
 <template>
   <div class="container">
-    <header><h1 class="accent">Read</h1></header>
+    <header><h1 class="accent">Read This Masterpiece</h1></header>
     <main>
       <div>{{ story.ts.toDate().toLocaleString() }}</div>
       <div>{{ story.text }}</div>
