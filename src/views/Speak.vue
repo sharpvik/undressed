@@ -1,5 +1,6 @@
 <script>
 import { addStory } from "../fire/story";
+import router from "../router";
 
 export default {
   name: "Speak",
@@ -13,7 +14,9 @@ export default {
   methods: {
     publish(e) {
       e.preventDefault();
-      addStory(this.story).then(console.log);
+      addStory(this.story, new Date()).then((story) =>
+        router.push({ name: "posted", params: { id: story.id } })
+      );
     },
   },
 };
